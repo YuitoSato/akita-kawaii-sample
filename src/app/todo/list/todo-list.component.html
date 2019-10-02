@@ -1,0 +1,6 @@
+<h2>Todo List</h2>
+<ul *ngIf="todoList$ | async as todoList">
+  <li *ngFor="let todo of todoList">
+    <a [routerLink]="'./' + todo.todoId">{{todo.text}}</a>
+  </li>
+</ul>

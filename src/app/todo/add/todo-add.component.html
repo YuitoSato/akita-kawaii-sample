@@ -1,0 +1,16 @@
+<h2>Todo Form</h2>
+<form [formGroup]="form" (submit)="submit()">
+  <div>
+    <label>Todo</label>
+    <input formControlName="text" />
+  </div>
+  <div>
+    <label>Detail</label>
+    <textarea formControlName="detail"></textarea>
+  </div>
+  <button
+    type="submit"
+  >
+    送信する
+  </button>
+</form>

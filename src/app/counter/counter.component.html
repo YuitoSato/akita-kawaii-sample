@@ -1,0 +1,7 @@
+<h1>Akita Counter 🐶</h1>
+
+<div *ngIf="counter$ | async as counter">
+  <h3>Current Value</h3>
+  <p>{{counter.count}}</p>
+  <button (click)="increment(counter.count)">UP👆</button>
+</div>
