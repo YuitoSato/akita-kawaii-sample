@@ -9,6 +9,7 @@ import { TodoDetailComponent } from './todo/detail/todo-detail.component';
 import { TodoListComponent } from './todo/list/todo-list.component';
 import { TodoAddComponent } from './todo/add/todo-add.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     TodoContainerComponent,
     TodoDetailComponent,
     TodoListComponent,
-    TodoAddComponent
+    TodoAddComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

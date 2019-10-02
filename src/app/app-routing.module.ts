@@ -3,13 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { CounterComponent } from './counter/counter.component';
 import { TodoContainerComponent } from './todo/todo-container.component';
 import { TodoDetailComponent } from './todo/detail/todo-detail.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'counter',
-    pathMatch: 'full',
+    component: HomeComponent
   },
   {
     path: 'counter',
