@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { TodoListService } from './state/todo-list-service';
-import { TodoListQuery } from './state/todo-list-query';
-import { TodoListItem } from './state/todo-list-item';
+import { TodoListService } from '../state/todo-list-service';
+import { TodoListQuery } from '../state/todo-list-query';
+import { TodoListItem } from '../state/todo-list-item';
 import { Observable } from 'rxjs';
 
 @Component({

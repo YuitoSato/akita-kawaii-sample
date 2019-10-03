@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { TodoService } from './todo-add.service';
-import { TodoListService } from '../list/state/todo-list-service';
+import { TodoListService } from '../state/todo-list-service';
 
 @Component({
   selector: 'app-todo-add',

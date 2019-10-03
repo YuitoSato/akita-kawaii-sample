@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { TodoDetailStore } from './todo-detail-store';
-import { TodoMockServer } from '../../todo-mock-server';
+import { TodoMockServer } from '../todo-mock-server';
 import { tap } from 'rxjs/operators';
 
 @Injectable({ providedIn: 'root' })

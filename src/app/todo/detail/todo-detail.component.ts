@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { TodoDetailService } from './state/todo-detail-service';
+import { TodoDetailService } from '../state/todo-detail-service';
 import { Observable } from 'rxjs';
-import { TodoDetailQuery } from './state/todo-detail-query';
+import { TodoDetailQuery } from '../state/todo-detail-query';
 
 @Component({
   selector: 'app-todo-detail',
